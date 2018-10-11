@@ -1,0 +1,96 @@
+Programming Assignment 2.3 : Lexicographically smallest palindrome
+
+Given a string S having characters from English alphabets ['a' - 'z'] and '.' as the special character.  Write a program in C to construct the lexicographically smallest palindrome by filling each of the faded character ('.') with a lower case alphabet.
+
+Definition:
+The smallest lexicographical order is an order relation where string s is smaller than t, given the first character of s (s1) is smaller than the first character of t (t1), or in case they are equivalent, the second character, etc. For example "aaabbb" is smaller than "aaac" because although the first three characters are equal, the fourth character b is smaller than the fourth character c.
+
+Input:
+String S
+
+Output:
+Print lexicographically smallest palindrome after filling each '.' character, ­if it possible to construct one. Print  -­1 otherwise.
+
+Example 1:
+
+Input: a.b.a
+Output: aabaa
+
+Example 2:
+ 
+Input: cb.bc
+Output: cbabc
+
+Example 3:
+
+Input: a.b
+Output: -1  
+
+
+
+
+
+Input Constraints:
+
+	String S can be of size 100
+
+	   
+
+Sample Test Cases
+Input	Output
+
+Test Case 1	
+a.a.a.a
+aaaaaaa
+
+Test Case 2	
+a.b.a
+aabaa
+
+Test Case 3	
+dsa.tr.wqe.dsa
+-1
+
+Test Case 4	
+abcd.abcd
+-1
+
+Test Case 5	
+d.if.ed
+deified
+
+Test Case 6	
+.ep.per
+repaper
+
+Test Case 7	
+r..i.i.er
+reaiaiaer
+
+Test Case 8	
+s.os.os
+soosoos
+
+Test Case 9	
+t.tt.rr.tt.t
+tattarrattat
+
+Test Case 10	
+g.ne.at.rs
+-1
+
+Test Case 11	
+choose.t.e.num.er.of.words.to.output.fr.m.the.sl.der.
+-1
+
+Test Case 12	
+k.nniki...k
+kannikinnak
+
+Test Case 13	
+evi.a.ive
+eviaaaive
+
+Test Case 14	
+dsads.fds
+-1
