@@ -1,0 +1,31 @@
+Programming Assignment 2.1 : Print Lower Triangle of a Matrix
+
+Write a program in C that reads an MxN matrix A and prints the lower triangular matrix.
+
+
+Example
+
+1 2 3
+4 5 6
+7 8 9
+
+
+Output of the above matrix: 
+1 0 0 
+4 5 0 
+7 8 9
+
+
+INPUT:
+
+First line contains two integers M and N separated by whitespace. The next M lines contain elements of matrix A, starting with the topmost row. Within each row, the elements are given from left to right.
+
+OUTPUT:
+
+Print the lower triangular matrix
+
+CONSTRAINTS:
+
+1 <= M <= 5, 1 <= N <= 5.
+
+Elements in the matrix will be in the range [-100,100]
