@@ -1,0 +1,20 @@
+Programming Assignment 2.2 : Transpose of a Matrix
+
+Write a program in C to find the transpose of a given Matrix A.
+
+
+
+Input:
+The first line of input contains two numbers r and c denoting the rows and column of matrix A respectively.
+From the second line, elements of Matrix A are present with each row separated by a new line and each column separated by space.
+
+Output: 
+Transpose of given matrix A
+
+
+Constraints:
+
+1 <= r, c <= 10. 
+
+Each element of Matrix A is within range
+-100<=A<=100
