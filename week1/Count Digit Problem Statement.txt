@@ -1,0 +1,15 @@
+Programming Assignment 1.4: Count Digit
+
+Given a number N and a digit d, find the total number of occurrence of digit d in number N
+
+
+INPUT: Two numbers N and d separated by whitespace.
+
+
+OUTPUT: Total number of occurrence of digit d in N
+
+
+CONSTRAINTS: 
+
+0<N<=10000000
+0<=d<=9
