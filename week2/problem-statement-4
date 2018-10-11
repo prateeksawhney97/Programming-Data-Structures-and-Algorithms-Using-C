@@ -1,0 +1,80 @@
+Programming Assingment 2.4: Check anagram
+Due on 2018-02-21, 23:59 IST
+Write a program in C to check whether two given strings a and b are anagram of each other or not. An anagram of a string is another string that contains same characters, only the order of characters can be different. For example, “abcd” and “dabc” are anagram of each other.
+
+
+Input Constraints:
+
+1) Input strings can be of length 1 to 100.
+2) The input will have only letters from English alphabet.
+3) Only lowercase letters are used.
+4) There are no space in the strings.
+
+Input: Two strings a and b separated by a whitespace.
+
+Output: 
+YES if strings are anagram of each other else NO.
+
+Example 1:
+amit mita
+YES
+
+Example 2:
+mat bat
+NO
+
+Sample Test Cases
+Input	Output
+Test Case 1	
+listen silent
+YES
+
+Test Case 2	
+asdfsa dsaasd
+NO
+
+Test Case 3	
+triangle integral
+YES
+
+Test Case 4	
+protectional lactoprotein
+YES
+
+Test Case 5	
+creative reactive
+YES
+
+Test Case 6	
+orchestra carthorse
+YES
+
+Test Case 7	
+crudities diuretics
+YES
+
+Test Case 8	
+asdsadasdfdsagdasgfdafdasfewa dfdsfwefdsfhdsjkoygusdhjklhfdsio
+NO
+
+Test Case 9	
+asdsafjbkofdhgio fhbsdjifohsadjiofhdjisoa
+NO
+
+Test Case 10	
+qwertyuiopasdfghjklzxcvbnm lkjhgfdsaqwertyuiopmnbvcxz
+YES
+
+Test Case 11	
+q q
+YES
+
+Test Case 12	
+ds as
+NO
+
+Test Case 13	
+abc bca
+YES
+
+
