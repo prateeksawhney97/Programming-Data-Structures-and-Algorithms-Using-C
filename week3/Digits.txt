@@ -1,0 +1,22 @@
+You are provided with a number N containing only digits "1" and "0". The idea is to make the number to have all the digits same. For that, you can only change exactly one digit, either "0" to "1" or "1" to "0".
+If it is possible to make all the digits same by flipping exactly one digit then print "YES" else "NO".
+
+Input:
+A number made up of only digits "1" and "0".
+
+Output:
+Print "YES" if it is possible to make all the digits same else "NO" without quotes.
+
+Example:
+
+Input:
+101
+
+Output:
+YES
+
+Input:
+11
+
+Output:
+NO
