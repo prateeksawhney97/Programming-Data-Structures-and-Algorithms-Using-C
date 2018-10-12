@@ -1,0 +1,20 @@
+Amit is working in a company such that he has to travel to some restaurant every day which is at N meters distance from his home. Amit has two choices, either to take the restaurant's taxi (where he wants to visit) or he can walk to the restaurant. Whenever he walks, he walks with a velocity of V1 m/s. The taxi, on the other hand, moves with a velocity of V2 m/s. Whenever he calls for the taxi, the taxi first travels a distance of N meters from the restaurant to his home and then from home, it travels back to the restaurant. 
+The taxi crosses a total distance of N meters while going from home to the restaurant, on the other hand, he has to cover a distance of sqrt(2)*N (because of some staircases) when he walks.
+Write a program in C to help Amit to decide whether he should use the taxi or he should walk so that his travel time is minimized.
+
+Input:
+Three space-separated integers N, V1, V2
+
+Output:
+Output a string either "Taxi" or "Walk" depending on the answer
+
+Example:
+
+Input:
+5 10 15
+
+Output:
+Taxi
+
+Constraints:
+1 <= N, V1, V2 <= 100
