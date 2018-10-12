@@ -1,0 +1,23 @@
+Given an array X of N numbers and an integer K, during a turn maximum value of array Xi is chosen as MAX. Then Xi = MAX-Xi is done for every 1<=i<=N.
+Write a program in C to find the array after K turns.
+
+Input:
+The first line of input contains the number N and K respectively. N is the number of elements in the array and K is the number of turns.
+
+Output:
+Output N numbers in a single line after K turns. It should be the elements of array X after K turns
+
+Example:
+
+Input:
+4 1
+5 -1 7 0
+
+Output:
+2 8 0 7
+
+Constraints:
+1<=N<=105
+0<=K<=109
+
+Xi <= 109
