@@ -1,0 +1,19 @@
+A number is special if it is possible to remove some digits from it to get a number having 3, 5 or 6 only.
+For example, 38597 is special since it is possible to remove digits 8, 9, 7 to get 35. You cannot remove all the digits.
+You can remove digits from left, right or middle.
+Write a program in C which given a number N, calculate how many divisors of N are special
+
+Input:
+An integer N
+
+Output:
+Output in a single line the number of divisors which are special.
+
+Constraints:
+1 <= N <= 109
+Example:
+Input:
+15
+
+Output:
+3
