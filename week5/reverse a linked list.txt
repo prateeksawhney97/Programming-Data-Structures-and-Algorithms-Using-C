@@ -1,0 +1,44 @@
+Programming Assignment 5.1: Reverse a linked list
+
+Write a program in C to reverse a linked list.
+
+You are supposed to implement only these following three functions:
+
+push(struct Node** head_ref, int new_data);
+// This function takes two arguments, first is the address of the pointer to the head
+of the linked list and second is the data which has to be inserted
+// The function should create a new node with data as new_data and
+appends this new node in the front of the original linked list.
+
+Working Example:
+push(&head, 2);
+Linked List: 2
+
+push(&head, 3);
+Linked List: 3->2
+
+push(&head, 4)
+Linked List: 4->3->2
+
+reverse(struct Node** head_ref);
+//This function takes the address of the pointer to the head node of the linked list as the
+argument.
+//This function reverse the linked list
+
+printList(struct Node *head);
+// This function takes the address of the head node of the linked list and prints the N elements of the list in a single line separated by space.
+
+Input:
+The first line of input contains an integer N denoting the number of elements.
+The second line contains the N integers in a single line separated by space.
+
+Output:
+Output the reverse of linked list in single line separated by space
+
+Example:
+Input:
+5
+5 4 3 2 1
+
+Output:
+5 4 3 2 1
