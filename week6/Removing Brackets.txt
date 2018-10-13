@@ -1,0 +1,21 @@
+Programming Assignment 6.1: Removing Brackets
+
+Write a program in C++ to simplify an algebraic string of characters having '+', '-' operators and parenthesis. 
+You need to output the simplified equation without the parenthesis.
+
+Input:
+String S
+
+Output:
+Simplified version of string S
+NOTE: do not omit the variables if they are getting canceled out, print them as it is
+
+Example:
+Input:
+a-(b+c)
+
+Output:
+a-b-c
+
+Constraints:
+1 <= S <= 100
