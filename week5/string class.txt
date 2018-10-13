@@ -1,0 +1,20 @@
+Programming Assignment 5.3: String Class
+
+Write a program in C++ to implement the String Class functions. 
+Given an input string S, find whether it contains only digits or not and replace the whitespaces (if any) with "IIT". 
+The length of string S is less than or equal to 100. 
+
+Input: 
+The string S in a single line. 
+
+Output: 
+In the first line, output "YES" if it only contains digits else output "NO"
+In the second line, print the formatted string after replacing the whitespaces by "IIT".
+
+Example:
+Input:
+Hi my name is Amit
+
+Output:
+NO
+HiIITmyIITnameIITisIITAmit
