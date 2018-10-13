@@ -1,0 +1,23 @@
+Programming Assignment 5.4: Subtraction among Two Numbers
+
+Given a pair of positive numbers, a and b, the task is to repeatedly subtract the smaller of the two number from the greater one until one of the numbers becomes zero.
+Write a C++ program to count the number of steps before one of the numbers becomes zero.
+
+Input:
+Integer a and b separated by space
+
+Output:
+Output the answer
+
+Example:
+Input:
+5 8
+
+Output:
+5
+
+Explanation:
+(5,8)->(5,3)->(2,3)->(2,1)->(1,1)->(0,1)
+
+Constraints:
+1 <= a, b <= 1000
