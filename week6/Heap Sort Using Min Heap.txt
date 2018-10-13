@@ -1,0 +1,61 @@
+Programming Assignment 6.2 : Heap Sort using Min-Heap
+
+One of the main application of Heaps is Heap-Sort.  It consists of 2 steps 
+
+(1) Build the heap and 
+
+(2) Sorted array is created by repeatedly removing the largest element (Heap is updated after each removal to maintain the heap). 
+
+
+Input
+
+	N
+
+	x1 x2 ……… xn
+
+where,
+
+ N is the total numbers to be sorted
+
+ xi    input numbers
+
+
+Output
+
+y1 y2 ……… yn    
+
+where array y is sorted
+
+
+Heap sort function is already made available to you 
+
+You need to complete the build heap and heapify function 
+
+
+
+You need to code the following functions
+
+
+
+// function creates and build a heap using minHeapify
+
+void createHeap(struct MinHeap* minHeap){
+
+// Single Node is a heap   
+
+    			// Start from bottom most and rightmost internal node and heapify all internal nodes in bottom up way
+
+ 
+
+	}
+
+  
+
+// heapify a min Heap.
+
+void heapify(struct MinHeap* minHeap, int idx){
+
+// idx is the index of the node you want to heapify
+
+}
+
