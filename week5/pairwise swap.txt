@@ -1,0 +1,56 @@
+Programming Assignment 5.2: Pairwise Swap
+
+Given a singly linked list, write a program to swap the elements of the linked list pairwise. For example, if the linked list is 1->2->3->4->5 then the program
+should change it to 2->1->4->3->5.
+
+You need to implement ONLY the following functions, the main() function is already provided with the code, so do not implement the main() function.
+
+
+push(struct Node** head_ref, int new_data)
+// This function takes the address of the pointer to the head of the linked list and an integer as arguments.
+// This function creates a new node with data as "new_data" and appends this node to the front of the original linked list.
+
+Working Example:
+
+push(&start, 5)
+Linked List: 5
+head pointed to: 5
+
+push(&start, 6)
+Linked List: 6->5
+Head Pointed to: 6
+
+push(&start, 1)
+Linked List: 1->6->5
+Head Pointed to: 1
+
+
+pairWiseSwap(struct Node *head);
+// This function takes the address of the head node as an argument.
+// Inside this function, you need to implement the pairwise swapping.
+
+printList(struct Node *node)
+// This function takes the address of the head node as argument and prints the elements of the linked list in a single line separated by space.
+
+The structure of the node of linked list has already been defined as the following, hence do not define it in your code:
+
+struct Node
+{    int data;
+    struct Node *next;
+};
+
+
+Input:
+The first line of input contains an integer N, denoting the number of elements in linked list
+The second line contains the N elements in a single line separated by space
+
+Output:
+Output the manipulated linked list elements in a single line separated by space.
+
+Example:
+Input:
+5
+5 4 3 2 1
+
+Output:
+2 1 4 3 5
