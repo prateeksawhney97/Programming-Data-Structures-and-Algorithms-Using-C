@@ -37,3 +37,36 @@ A video can be repeated only if, in between, there is 1 different video.
 There are only two possible playlists possible
 {v1, v2, v1}
 {v2, v1, v2}
+
+Sample Test Cases
+Input	Output
+Test Case 1	
+3 1 3
+6
+Test Case 2	
+2 1 3
+2
+Test Case 3	
+3 2 4
+6
+Test Case 4	
+4 2 6
+168
+Test Case 5	
+5 3 5
+120
+Test Case 6	
+50 5 100
+61860
+Test Case 7	
+100 100 100
+10175
+Test Case 8	
+23 14 26
+17188
+Test Case 9	
+69 0 100
+76809
+Test Case 10	
+69 37 100
+29747
