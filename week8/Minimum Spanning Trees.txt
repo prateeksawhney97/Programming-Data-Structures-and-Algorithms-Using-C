@@ -1,5 +1,5 @@
 PA 8.4 - Minimum Spanning Tree (Prims)
-Due on 2018-04-04, 23:59 IST
+
 Given a connected graph G, find the minimum spanning tree of a graph. 
 Write a program in C++ for Prim's Minimum Spanning Tree (MST) algorithm.
 
