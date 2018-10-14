@@ -1,0 +1,26 @@
+Programming Assignment 7.3: Longest Increasing Subsequesnce
+
+The Longest Increasing Subsequence (LIS) is defined as the longest subsequence of a sequence such that all elements of the subsequence are sorted in increasing order.
+Write a program in C to find the Longest Increasing Subsequence of a given array A.
+
+Input:
+The first line of input contains an integer N, denoting the size of array A.
+
+Output:
+Length of longest common subsequence.
+
+Example:
+Input:
+5
+3 10 2 1 20
+
+Output:
+3
+
+
+Explanation:
+The longest increasing subsequence is 3, 10, 20.
+
+Constraints:
+1 <= N <= 105
+-1000 <= Ai <= 1000
