@@ -1,0 +1,23 @@
+Programming Assignment 7.2: Coin Changing
+Due on 2018-03-28, 23:59 IST
+Given a value X, you want to have change for this amount X. You are provided with the infinite supply of each of the denominations in Indian Currency i.e. you have the infinite supply of these notes/coins {1, 2, 5, 10, 20, 50, 100, 500, 1000}.
+Your task is to find the minimum number of coins/notes needed to make the change. Write your program in C++.
+
+Input:
+Integer X.
+
+Output:
+In a single line, output the required coins/notes denominations, in non-increasing order, separated by space.
+
+Example:
+Input:
+70
+
+Output:
+50 20
+
+Explanation:
+You need a 50 rupees and a 20 rupees note. This is the minimum you can get. 
+
+Constraints:
+1 <= X <= 105
