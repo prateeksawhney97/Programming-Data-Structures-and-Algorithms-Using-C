@@ -1,0 +1,51 @@
+PA 8.4 - Minimum Spanning Tree (Prims)
+Due on 2018-04-04, 23:59 IST
+Given a connected graph G, find the minimum spanning tree of a graph. 
+Write a program in C++ for Prim's Minimum Spanning Tree (MST) algorithm.
+
+
+Input: Number of vertices in G and Adjacency matrix A of graph G, with the value at A[i,j] is the weight of the edge joining vertex i and vertex j. 
+
+
+Output:  Edge (vertex i -- vertex  j ) and weight of the edge in the below format: 
+
+i -- j  w
+
+
+Note: The vertex are numbered from 0 to n-1, where n is the total number of vertices.
+
+
+
+Example: 
+
+Input:
+
+5
+
+0 2 0 6 0
+
+2 0 3 8 5
+
+0 3 0 0 7
+
+6 8 0 0 9
+
+0 5 7 9 0
+
+Output:
+
+0 -- 1 2
+
+1 -- 2 3
+
+0 -- 3 6
+
+1 -- 4 5
+
+
+
+The following function should store MST in array.  Assuming the vertex 0 as source.
+
+int* prim(int** graph,int no_of_vertices); 
+
+This function should return an array of length V arr[i] stores the parent of ith vertex. For source vertex arr[0] = -1
