@@ -1,0 +1,25 @@
+PA 8.1 - Checking Duplicates
+Due on 2018-04-04, 23:59 IST
+Given an array A of N integers, and a number k which is smaller than the size of the array. Write a program in C++ which returns true if the array contains duplicates within k distance.
+
+Input:
+The first line contains the integers N and k separated by space.
+The second line contains the N integers separated by space
+
+Output:
+Output "Yes" if it contains duplicates within distance k else output "No".
+
+Constraints:
+1 <= N <= 105
+-1000 <= Ai <= 1000
+
+Example:
+Input:
+6 3
+1 2 3 1 4 5
+
+Output:
+Yes
+
+Explanation:
+1 is repeated at distance 3.
