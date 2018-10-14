@@ -1,0 +1,20 @@
+PA 8.2 - Application of Hashing
+
+Given an input string S, write a program in C++ to find the maximum occurring character in S. For example, if the input string is "tushita" then the program should return t.
+
+Input:
+The first line contains an integer representing the size of S
+The second line contains the string S
+
+Output:
+Maximum occurring character. If more than one character has maximum count then return the first character with the maximum count in the input string. 
+
+Example:
+Input:
+test
+
+Output:
+t
+
+Constraints:
+1 <= S <= 105
