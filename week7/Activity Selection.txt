@@ -1,0 +1,25 @@
+Programming Assignment 7.1:Activity Selection
+
+You are provided with N activities with their start and finish times, represented by array S and F respectively. Your task is to find the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a time.
+
+Input:
+The first line of input contains an integer N denoting the number of activities.
+The second line of input contains the elements of S, i.e. start time of each activity separated by space.
+The third line contains the elements of array F, i.e. finish time corresponding to the start time of the activities separated by space.
+
+Output:
+The maximum number of activities that can be performed. 
+
+Example:
+Input:
+3
+10 12 20
+20 25 30
+
+Output:
+2
+
+Constraints:
+1 <= N <= 105
+1 <= Si <= 105
+1 <= Fi <= 105
