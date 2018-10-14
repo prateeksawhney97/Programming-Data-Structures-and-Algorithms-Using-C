@@ -1,0 +1,44 @@
+PA 8.3 - Dijkstra’s Shortest Path
+
+Given an undirected/ directed weighted graph G, find the shortest distance from the source vertex to all the vertices in the graph. Weights of all the edges in the graph are positive. 
+
+
+Input: 
+The first line of input contains integers N and s separated by space, denoting the number of vertices in G and the source vertex respectively.
+The second line contains the adjacency matrix A of graph G, with the value at A[i,j] is the weight of the edge joining vertex i and vertex j. 
+
+
+Output: 
+
+Output result in N lines, where each line contains the vertex number and its distance from the source separated by space 
+
+In case of directed graph, if there is no path from source to any of the vertex then dist value should be 1000.( indicating no path.)
+
+
+The function shortestDist  need to be coded :
+
+int* shortestDist(int** graph, int src, int no_of_vertices).
+
+This function stores distance in array dist[no_of_vertices]  and returns this array.
+
+
+Example: 
+
+Input:
+
+3 0 
+
+0 4 0
+
+4 0 1
+
+0 1 0
+
+Output:
+
+0 0
+
+1 4
+
+2 5
+
