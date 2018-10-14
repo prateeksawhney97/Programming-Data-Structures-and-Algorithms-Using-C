@@ -18,3 +18,45 @@ t
 
 Constraints:
 1 <= S <= 105
+
+Sample Test Cases
+Input	Output
+Test Case 1	
+6
+ammiit
+m
+Test Case 2	
+7
+tushita
+t
+Test Case 3	
+11
+test sample
+t
+Test Case 4	
+20         
+ksjhdjhfuenaksjdhrow
+j
+Test Case 5	
+25
+hsbdleprodkfjrhtnsjdnfjqh
+h
+Test Case 6	
+10
+alskforjsr
+s
+Test Case 7	
+16
+amit kumar verma
+a
+Test Case 8	
+255
+dshajklfgjdslbgfjkldsyhafhdjkslagfdjklsafjkdsyhauityrklabnvdklagfjkhfvbhfdjkalhfdjskalfbvfhdjkaltfudiafhdjkasfhdsajkfltduafgdhafdisafgdqweyutrewuioqoeiwryytrdsacxsaghvxzdfsgyaufdtyaruteyqurdtvzedrwqbxfiqbxfrtqyicbhgernmgrelrituoeyurewgfuiewutfdhsjaytreigd
+d
+Test Case 9	
+26
+from random import randint
+f
+Test Case 10	
+8
+akjsyeos
